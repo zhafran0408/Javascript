@@ -15,7 +15,7 @@ console.log(`Kuadratkan jumlah permen tersebut ${permen_dikuadratkan}`);
 let kucing_ana = 2;
 let kucing_pertama = "ali";
 let kucing_kedua = "hasan";
-let digabungkan = "ali dan hasan";
+let digabungkan = kucing_pertama + kucing_kedua;
 
 // jawab
 console.log(
@@ -42,7 +42,7 @@ console.log(` Berapa hasil 2 Consol log diatas ${hasil_nyamuk_angsa}`);
 // penjelasan
 // ditambah karena string
 // kenapa bisa jadi seperti itu bukan hasilnya 22 karena 12+10=22
-// ya ini karena number + string (10 +'11'= 21)
+// ya ini karena number + number(10 +'11'= 21)
 
 // nomer 4
 let membeli_buku_fiksi = "25,000";
@@ -60,7 +60,7 @@ let penjumlahan2 = (5 + 3) * 2;
 
 // jawab
 console.log(`Berapakah hasil dari penjumlahan1 ? ${penjumlahan1}`);
-console.log(`Berapakah hasil dari penjumlahan2 ? ${penjumlahan1}`);
+console.log(`Berapakah hasil dari penjumlahan2 ? ${penjumlahan2}`);
 
 // penjelasan
 // seperti matematika saja yg dikali lebih dulu dikerjakan atau yang didalam kurung
@@ -75,7 +75,7 @@ console.log(`Nilai isi kresek adalah ${kresek}`);
 
 console.log(`Nilai isi kotak adalah ${kotak}`);
 
-console.log(`Nilai isi ember adalah ${kresek}`);
+console.log(`Nilai isi ember adalah ${ember}`);
 
 // penjelasan
 // variabel disini sifatnya  mengikuti
@@ -109,18 +109,16 @@ console.log(`Hasil variabel J adalah ${J} dan variable K adalah ${K}`);
 let penjelasanJ = `ia menggunakan increment yang membuat variabel J bertambah 1.`;
 let penjelasanK = `ia menggunakan decrement yang membuat variabel K berkurang 1.`;
 console.log(
- `Hasil J demikian karena ${penjelasanJ} sedangkan variable K karena ${penjelasanK}`
+  `Hasil J demikian karena ${penjelasanJ} sedangkan variable K karena ${penjelasanK}`
 );
 
 // nomer 10
-let room = 'hafs';
+let room = "hafs";
 let age = 18;
-let shoesnumber = '42';
+let shoesnumber = 42;
 let married = false;
 
-console.log(`typeof ${room}`);
-console.log(`typeof ${age}`);
-console.log(`typeof ${shoesnumber}`);
-console.log(`typeof ${married}`);
-
-
+console.log(typeof room);
+console.log(typeof age);
+console.log(typeof shoesnumber);
+console.log(typeof married);

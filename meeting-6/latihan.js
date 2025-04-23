@@ -5,8 +5,9 @@ console.log(typeof dressSize);
 dressSize = String(dressSize);
 console.log(typeof dressSize);
 
-dressSize = +45;
+dressSize =  Number(dressSize);
 console.log(typeof dressSize);
+
 
 // nomer2
 let isLight = `true`;

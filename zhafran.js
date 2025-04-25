@@ -21,3 +21,8 @@ for (let i = 0; i < 5; i++) {
         }
         console.log(i);
       }
+
+      function add(a, b) {
+        return a + b;
+        }
+        console.log(add(3, 5));  

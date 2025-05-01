@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tester</title>
+  </head>
+
+  <body>
+    <div id="contohElement">ini adalah element dengan ID contohElement</div>
+
+    <div id="hasil"></div>
+
+    <div id="container"></div>
+
+    <script>
+        // console.dir(document.getElementById('contohElement'));
+        // console.log(document.getElementById('contohElement').innerText = 'sudah diganti');
+
+        let ambilElement = document.getElementById("contohElement"); //get element
+        let tampung = ambilElement.innerText; //akses value / ambil valuenya
+        console.log(tampung); //tampilkan value/isinya
+        console.log((ambilElement.innerText = "sudah diganti"));
+
+        //4.
+        let nilai = 10;
+        document.getElementById("hasil").innerText = nilai;
+
+        //5
+        // buat elemen <p> baru
+        let pElement = document.createElement("p");
+
+        // sisipkan element <p> ke dalam element dengan id container
+        document.getElementById("container").appendChild(pElement);
+
+        // tambahkan teks ke dalam elemen p
+        pElement.innerText = "ini adalah teks.";
+
+        // sisipkan elemen
+        document.getElementById("container").appendChild(pElement);
+        
+        // latihan fungsi
+        <button onclick="alert('Tombol diklik!')">Klik Saya</button>
+</script>
+
+
+     </script>
+  </body>
+</html>
+
+// <!--*Goals use DOM  -->
+// <!--? 1.bagaimana mendapatkan value/isi dari element (contohElement)-->
+// <!--? 2. tampilkan value/isi tersebut ke dalam console  -->
+// <!--? 3. merubah value/isi dari element -->
+// <!--? 4. bagaimana jika element tersebut tidak ada isinya, tolong diisi -->
+// <!--? 5. bagaimana cara membuat sebuah element baru didalam id -->/

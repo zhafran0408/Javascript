@@ -26,3 +26,4 @@ for (let i = 0; i < 5; i++) {
         return a + b;
         }
         console.log(add(3, 5));  
+      

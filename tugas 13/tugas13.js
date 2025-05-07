@@ -8,7 +8,7 @@ function calculate(num1, num2, operation) {
 }
 calculate ( 10,3,penjumlahan);
 
-function perkalian(angka1,angka2){
-  return (angka1*angka2)
-}
-calculate (12,2,perkalian)
+// function perkalian(angka1,angka2){
+//   return (angka1*angka2)
+// }
+// calculate (12,2,perkalian)

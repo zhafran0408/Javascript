@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="pengaturan">hasil: <span id="hasil"></span></div>
+    <button onclick="buttondiklik('1')">1</button>
+    <button onclick="buttondiklik2 ('2')">2</button>
+    <script>
+      const display = document.getElementById("hasil");
+
+        function pengaturan (hasil){
+          if (display.innerText === "1"){
+              display.innerText = hasil;
+          }
+          else(display.innerText += hasil)
+        }
+
+      function buttondiklik(value) {
+        console.log("terklik");
+        display.innerText = value;
+      }
+      function  buttondiklik2 (value){
+        console.log("terklik");
+        display.innerText = value;
+      }
+     
+    </script>
+  </body>
+</html>

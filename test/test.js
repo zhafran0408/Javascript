@@ -67,27 +67,6 @@ console.log(myMap.get("name"));
 // console.log(person.nickName);
 // console.log(person.["nickname"]);
 
-let person = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 30,
-};
-person.country = "Indonesia";
-console.log(person.country);
-
-let mySet = new Set([1, 2, 3]);
-mySet.add(2);
-console.log(mySet);
-
-// const arrayOne = [1, 2, 3];
-// const arrayTwo = [...arrayOne, 4, 5];
-// console.log(arrayTwo);
-
-function myFunc(...params) {
-  console.log(params.length);
-}
-myFunc("one", "two", "three", "four");
-
 // spread operator
 const arrayOne = [1, 2, 3];
 console.log(arrayOne);
@@ -123,3 +102,18 @@ const [name1, name2, ...rest] = names;
 console.log(name1);
 console.log(name2);
 console.log(rest);
+
+//  contoh use strict
+"use strict";
+x = 10;
+console.log(x);  
+
+// contoh Dynamic Typing
+let data = "Hello";
+console.log(typeof data);
+data = 42;
+console.log(typeof data);  
+
+console.log(age);
+var nama = 19;
+console.log(age);  
